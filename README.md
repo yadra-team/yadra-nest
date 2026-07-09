@@ -11,11 +11,10 @@ This repository is in v0.1 planning and architecture setup. Product implementati
 ## Rules For Contributors
 
 - Read `AGENTS.md` before making changes.
-- Do not reuse old desktop code as active implementation.
+- Start fresh in this repository.
 - Keep architecture docs and implementation issues aligned.
 - Run repository validation before opening a pull request.
 
 ```bash
 bash scripts/verify-ai-governance.sh
 ```
-

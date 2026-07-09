@@ -43,8 +43,8 @@ if grep -RIn --exclude-dir=.git --exclude=verify-ai-governance.sh 'status\.yarda
   fail 'typo domain status.yarda.app found'
 fi
 
-if grep -RIn --exclude-dir=.git --exclude=verify-ai-governance.sh 'old desktop code is active\|archive/desktop-legacy/.*active implementation' AGENTS.md README.md docs 2>/dev/null; then
-  fail 'legacy desktop described as active implementation'
+if grep -RIn --exclude-dir=.git --exclude=verify-ai-governance.sh 'old desktop\|desktop-legacy\|archive/desktop-legacy\|legacy desktop\|old code' AGENTS.md README.md docs 2>/dev/null; then
+  fail 'old-code reference found in active yadra-nest docs'
 fi
 
 printf 'ai governance ok\n'

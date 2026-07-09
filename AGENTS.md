@@ -14,8 +14,7 @@ Yadra Nest owns the native-installed desktop app: app shell, local-first note ex
 
 ## Architecture Constraints
 
-- Do not reuse old desktop code as active implementation.
-- Treat `archive/desktop-legacy/` only as historical reference when explicitly requested.
+- Start fresh in this repository.
 - Do not scaffold app source until the relevant v0.1 architecture issue is accepted.
 - Keep Yad reasoning separate from app-core execution.
 - Yad must not directly mutate user data storage.
@@ -34,4 +33,3 @@ Run:
 ```bash
 bash scripts/verify-ai-governance.sh
 ```
-
