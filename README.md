@@ -12,6 +12,7 @@ This repository is in v0.1 planning and architecture setup. Product implementati
 
 - [ADR 0001: Native App Baseline](docs/adr/0001-native-app-baseline.md)
 - [Local-First Notes and Metadata Requirements](docs/requirements/local-first-notes-and-metadata.md)
+- [Yad Agent Boundary Requirements](docs/requirements/yad-agent-boundary.md)
 
 ## Rules For Contributors
 
