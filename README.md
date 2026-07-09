@@ -8,6 +8,11 @@ Yadra Nest is the future local-first desktop application. It will own the instal
 
 This repository is in v0.1 planning and architecture setup. Product implementation must start from accepted issues in the `v0.1 Platform Baseline` milestone.
 
+## Architecture And Requirements
+
+- [ADR 0001: Native App Baseline](docs/adr/0001-native-app-baseline.md)
+- [Local-First Notes and Metadata Requirements](docs/requirements/local-first-notes-and-metadata.md)
+
 ## Rules For Contributors
 
 - Read `AGENTS.md` before making changes.
