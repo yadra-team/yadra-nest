@@ -10,7 +10,7 @@ Yadra Nest is the native-installed desktop app for Yadra. It must run on macOS, 
 
 The project does not require a pure native-control UI. It requires a native-installed app shell, secure privileged operations, local storage, background work, local model integration, updater/signing support, and a maintainable editor-heavy interface.
 
-Old desktop code is reference-only. New implementation starts in this repository.
+Implementation starts fresh in this repository.
 
 ## Decision
 
@@ -100,6 +100,5 @@ This ADR satisfies issue #1 when:
 
 - It names the selected desktop path and tradeoffs.
 - It defines what belongs in Nest versus Hub, Bridge, Seed, and docs.
-- It states old desktop code is reference-only.
+- It states implementation starts fresh in this repository.
 - It does not scaffold application source code.
-
